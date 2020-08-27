@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>projetox</title>
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, 
+    maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos3.css">
+    <title>Página de deletar os nomes da tabela</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="1.col-4">
+                <h1>Deletar nomes</h1>
+                <a href="projetox_cadastro.html" class="btn btn-primary"> Cadastro de nomes</a>
+                <a href="projetox_tabela.html" class="btn btn-success">Tabela de Nomes</a>
+                <a href="projetox_deletar.html" class="btn btn-danger">Deletar Nomes</a>
+                <form class="form" onsubmit="cadastro(event, this);">
+
+                    <div class="row">
+                        <div class="col-sm-9">
+                            <h2> Nomes Registrados </h2>
+
+
+                        </div>
+
+                        <table class="table table-striped" id="tbNomes">
+                            <tr>
+                                <th>Nome</th>
+
+
+
+                            </tr>
+                        </table>
+                        <p class="aDireita">
+                            <input type="button" class="btn btn-danger" value="Excluir Selecionados" id="btExcluir">
+                        </p>
+
+                        <!--<div class="row">
+                        <div class="col-sm-9">
+                            <table class="table table-striped" id="tbNomes">
+                                <tr>
+                                    <th>Nome</th>
+
+                                    <th>
+                                        <table class="table table-striped" id="tbNome"
+                                        <label>
+                                        <input type="checkbox" id="ckTodos"> Todos os Nomes 
+                                      </label>
+                                    </div>
+                                    </th>
+                                </tr>
+
+                                -->
+                        <p class="aDireita">
+                            <input type="button" class="btn btn-ganger oculta" value="Excluir Selecionados" id="btExcluir">
+
+                        </p>
+                    </div>
+            </div>
+            <script src="js/projetox_deletar.js"></script>
+
+
+
+
+</body>
+
+</html>
